@@ -1,0 +1,11 @@
+node_modules/
+release/
+stage/
+.test-output/
+*.log
+.env
+.env.*
+*.zip
+*.exe
+nju-schoolwide*.json
+nju-my-timetable.json

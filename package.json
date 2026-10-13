@@ -1,0 +1,18 @@
+{
+  "name": "nju-timetable-desktop",
+  "version": "0.1.2",
+  "private": true,
+  "description": "南京大学课表本地导出助手（非学校官方应用）",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "build": "node build.cjs",
+    "test:smoke": "electron . --self-test"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "44.7.0"
+  },
+  "license": "MIT"
+}
